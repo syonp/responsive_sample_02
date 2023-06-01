@@ -1,0 +1,154 @@
+@charset   "UTF-8";
+ 
+* {
+  margin: 0;
+  padding: 0 ;
+  list-style: none;
+  text-decoration: none;
+}
+ 
+#wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+ 
+header {
+  background: #ffe4e1;
+  color: #bc8f8f;
+  padding: 20px;
+}
+ 
+.main-menu {
+  background: #bc8f8f;
+}
+ 
+.main-menu ul li {
+  text-align: center;
+}
+ 
+.main-menu ul li a {
+  color: #FFF;
+  display: block;
+  padding: 10px 20px;
+}
+ 
+.main-menu ul li a:hover {
+  background: #222;
+}
+ 
+section {
+  background: #fffafa;
+  flex: 3;
+  padding: 20px;
+}
+ 
+article {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 20px;  
+}
+ 
+aside {
+  background: #ffe4e1;
+  flex: 1;
+}
+ 
+.sub-menu {
+  background: #fffafa ; 
+}
+ 
+.sub-menu ul li {
+  text-align: center
+}
+ 
+.sub-menu ul li a {
+  color: #FFF;
+  display: block#fffafa;
+  padding: 10px 20px;
+}
+ 
+.sub-menu ul li a:hover {
+  background: #ffe4e1;
+}
+ 
+footer   {
+  background: #ffe4e1;
+  color: ;
+  padding: 20px;
+  text-align: center;
+}
+    h1 {
+        font-size: 2rem;
+      }
+      
+      @media all and (min-width: 1025px) {
+        h1 {
+          font-size: 3rem;
+        }
+      }
+
+    .main-menu ul {
+      display: flex;
+    }
+  
+    .main-menu ul li {
+      text-align: left;
+    }
+  
+    main {
+      display: flex;
+    }
+  
+    .sub-menu ul li {
+      text-align: left;
+    }
+  
+  
+  @media all and (min-width: 1025px) {
+  
+    #wrap {
+      width: 84%;
+      max-width: 1280px;
+    }
+  
+  }
+  @media all and (min-width: 600px) {
+
+    .main-menu ul {
+      display: flex;
+    }
+  
+    .main-menu ul li {
+      text-align: left;
+    }
+  
+    main {
+      display: flex;
+    }
+  
+    .sub-menu ul li {
+      text-align: left;
+    }
+  
+  }
+  
+  @media all and (min-width: 1025px) {
+  
+    #wrap {
+      width: 84%;
+      max-width: 1280px;
+    }
+  
+  }
+  /*スマホ用*/
+ 
+/*タブレット用   600px以上〜*/
+@media all and (min-width: 600px) {
+ 
+}
+ 
+/*コンピュータ用   1025px以上〜*/
+@media all and (min-width: 1025px) {
+ 
+}
+  
